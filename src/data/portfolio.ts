@@ -69,7 +69,7 @@ export const personalInfo = {
   name: 'Dhinesh Swaminathan M',
   firstName: 'Dhinesh',
   title: 'Full Stack Developer & AI Engineer',
-  avatar: '/dhinesh.jpg',
+  avatar: 'Dhinesh.png',
   email: 'dhineshswaminathan03@gmail.com',
   // phone: '9751735525',
   linkedIn: 'https://www.linkedin.com/in/dhineshswaminathan',

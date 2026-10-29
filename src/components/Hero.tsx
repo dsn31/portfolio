@@ -324,8 +324,8 @@ function HeroPortrait({ reduced }: { reduced: boolean }) {
           {/* Inner image container */}
           <div className="relative overflow-hidden rounded-[22px] bg-[var(--bg-secondary)] w-56 h-56 sm:w-64 sm:h-64 lg:w-80 lg:h-96">
             <img
-              src="/dhinesh.jpg"
-              alt="Dhinesh Swaminathan M - Full Stack Developer & AI Engineer"
+              src={personalInfo.avatar}
+              alt={`${personalInfo.name} - ${personalInfo.title}`}
               className="w-full h-full object-cover object-top transition-transform duration-700 ease-out group-hover:scale-105"
               loading="eager"
             />
